@@ -19,14 +19,19 @@
   <body>
     <!-- NavBar -->
     <div class="navbar">
+      <!-- simply for click events -->
+      <input type="checkbox" class="checkbox" id="click" hidden />
+
       <!-- side bar -->
       <div class="side-bar">
         <!-- menu icon -->
-        <div class="menu-icon">
-          <div class="line line-1"></div>
-          <div class="line line-2"></div>
-          <div class="line line-3"></div>
-        </div>
+        <label for="click">
+          <div class="menu-icon">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+        </label>
         <!-- end of menu icon -->
 
         <!-- social media icons -->
@@ -54,11 +59,63 @@
         </ul>
         <!-- end of social media icons -->
 
+        <!-- year -->
         <div class="year">
           <p>2020</p>
         </div>
+        <!-- end of year -->
       </div>
       <!-- end of side bar -->
+
+      <!-- navigation -->
+      <nav class="navigation">
+        <!-- navigation-header -->
+        <div class="navigation-header">
+          <h1 class="navigation-heading">Grand Hotel</h1>
+
+          <form class="navigation-search">
+            <input
+              type="text"
+              class="navigation-search-input"
+              placeholder="Search"
+            />
+            <button class="navigation-search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <!-- end of navigation-header -->
+
+        <!-- navigation-list -->
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">home</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">about us</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">rooms</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">events</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">customers</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">contact</a>
+          </li>
+        </ul>
+        <!-- end of navigation-list -->
+
+        <!-- copyright -->
+        <div class="copyright">
+          <p>&copy; MaxBigBudget. All Rights Reserved</p>
+        </div>
+        <!-- end of copyright -->
+      </nav>
+      <!-- end of navigation -->
     </div>
     <!-- End of NavBar -->
 
